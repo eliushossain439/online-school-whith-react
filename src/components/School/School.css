@@ -1,0 +1,11 @@
+
+.section-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.cart-container{
+    background-color: bisque;
+    border-radius: 30px;
+}

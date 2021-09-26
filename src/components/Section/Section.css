@@ -1,0 +1,11 @@
+
+.section{
+    background-color: cornsilk;
+    padding: 20px;
+    border-radius: 20px;
+}
+.image-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
