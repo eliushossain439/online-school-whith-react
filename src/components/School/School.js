@@ -4,13 +4,15 @@ import Section from '../Section/Section';
 import './School.css'
 const School = () => {
     const [students, setStudents] = useState([])
+    const [cart, setCart] = useState([])
+    // uses useEffect for data
     useEffect(() => {
         fetch('./Students.JSON')
             .then(res => res.json())
             .then(data => setStudents(data))
 
     }, [])
-    const [cart, setCart] = useState([])
+
     // add event handler
     const eventHandler = (student) => {
         const newCart = [...cart, student]

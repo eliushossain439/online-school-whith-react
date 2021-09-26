@@ -9,11 +9,11 @@ const Section = (props) => {
                 <img src={img} alt="" />
             </div>
             <div className="">
-                <h3>Name:{name}</h3>
-                <h3>ID:{id}</h3>
-                <p>Email:{email}</p>
-                <p>Phone:{phone}</p>
-                <p>TutionFee:{tutionFee}</p>
+                <h3 className="text-secondary">Name:{name}</h3>
+                <h3>ID: {id}</h3>
+                <p>Email: {email}</p>
+                <p>Phone: {phone}</p>
+                <p>TutionFee: {tutionFee}</p>
             </div>
             <button className="btn btn-warning text-light" onClick={() => props.eventHandler(props.student)}>
                 <span className="mr-2"><i class="fas fa-school"></i></span>
